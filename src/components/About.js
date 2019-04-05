@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Rainbow from '../hoc/Rainbow'
 const About = (props)=>{
     console.log(props)
     return(
@@ -9,4 +9,4 @@ const About = (props)=>{
         </div>
     )
 }
-export default About;
+export default Rainbow(About);
